@@ -15,7 +15,7 @@ foreground = yes
 pid = /tmp/stunnel4.pid
 
 # options = NO_SSLv2
-options = SINGLE_ECDH_USE
+# options = SINGLE_ECDH_USE
 options = SINGLE_DH_USE
 socket = r:TCP_NODELAY=1
 options = NO_SSLv3
